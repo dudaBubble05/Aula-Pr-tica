@@ -1,0 +1,13 @@
+var teclado = require("prompt-sync")();
+var nUm = parseFloat(teclado("Digite o primeiro numero"));
+var nDois = parseFloat(teclado("Digite o segundo numero"));
+var nTres = parseFloat(teclado("Digite o terceiro numero"));
+var nQuatro = parseFloat(teclado("Digite o quarto numero"));
+var nCinco = parseFloat(teclado("Digite o quinto numero"));
+var nSeis = parseFloat(teclado("Digite o sexto numero"));
+var nSete = parseFloat(teclado("Digite o set\u00EDmo numero"));
+var nOito = parseFloat(teclado("Digite o oitavo numero"));
+var nNove = parseFloat(teclado("Digite o nono numero"));
+var nDez = parseFloat(teclado("Digite o dec\u00EDmo numero"));
+var media = (nUm + nDois + nTres + nQuatro + nCinco + nSeis + nSete + nOito + nNove + nDez) / 10;
+console.log("M\u00E9dia \u00E9 ".concat(media));
